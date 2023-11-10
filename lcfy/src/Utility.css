@@ -1,0 +1,85 @@
+.flex {
+    display: flex;
+}
+.flex-dir{
+    flex-direction: column;
+}
+.flex-1{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-2{
+    align-items: center;
+    justify-content: center;
+}
+.flex-3{
+    align-items: center;
+}
+.grid {
+    display: grid;
+}
+.grid-1-col {
+    grid-template-columns: repeat(1,1fr);
+}
+.grid-2-col {
+    grid-template-columns: repeat(2,1fr);
+}
+.grid-4-col {
+    grid-template-columns: repeat(4,1fr);
+}
+.grid-5-col {
+    grid-template-columns: repeat(5,1fr);
+}
+.grid-6-col {
+    grid-template-columns: repeat(6,1fr);
+}
+.grid-7-col {
+    grid-template-columns: repeat(7,1fr);
+}
+.grid-8-col {
+    grid-template-columns: repeat(8,1fr);
+}
+.pad16{
+    padding: 1.6rem;
+}
+.pad24{
+    padding:  2.4rem;
+}
+.pad32{
+    padding: 3.2rem;
+}
+.pad48{
+    padding: 4.8rem;
+}
+.pad64{
+    padding: 6.4rem;
+}
+.pad72{
+    padding: 7.2rem;
+}
+.pad96{
+    padding: 9.6rem;
+}
+
+.gap16{
+    gap: 1.6rem;
+}
+.gap24{
+    gap:  2.4rem;
+}
+.gap32{
+    gap: 3.2rem;
+}
+.gap48{
+    gap: 4.8rem;
+}
+.gap64{
+    gap: 6.4rem;
+}
+.gap72{
+    gap: 7.2rem;
+}
+.gap96{
+    gap: 9.6rem;
+}
